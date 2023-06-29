@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/reserva.css">
+  <title>Reservas</title>
+</head>
+<body>
+    <header>
+        <nav class="barra-de-tareas">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="reglas.html">Reglas</a></li>
+                <li><a href="carta.html">Carta</a></li>
+                <li><a href="reservas.html">Reservas</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+  <main class="flex-container">
+        <form id="miFormulario">
+
+            <div class="flex1">
+                <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            </div>
+    
+            <div class="flex2">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="flex3">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+    
+            <button type="submit">Enviar</button>
+      </form>
+  </main>
+  <footer class="pie">
+    <div class="container-pie">
+        <p>&copy; 2023 AngelRestaurant. Todos los derechos reservados.</p>
+    </div>
+</footer>
+  <div id="posts-container"></div>
+
+  <script src="/JS/scripts.js" type="module"></script>
+</body>
+</html>
